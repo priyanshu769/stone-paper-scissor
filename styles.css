@@ -1,3 +1,42 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #0d1117;
+    color: #ffffff;
+}
+header h1 {
+    color: red;
+    font-size: 60px;
+}
 .game-images {
     height: 200px;
+    text-align: center;
+    cursor: pointer;
+    margin: 10px 70px;
+}
+.result-heading {
+    font-size: 40px;
+    color: #f0932b;
+}
+.draw {
+    color: #0984e3;
+    font-size: 30px;
+}
+.lost {
+    color: #d63031;
+    font-size: 30px;
+}
+.win {
+    color: #6ab04c;
+    font-size: 30px;
+}
+footer {
+    width: 100%;
+    color: #ffffff;
+    margin-top: 15%;
+
+}
+footer a {
+    text-decoration: none;
+    color: #f0932b;
 }
